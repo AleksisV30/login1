@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" href="login.css">
+
   <title>login page</title>
 </head>
+
 <body>
-  <h1 class="text1">HTML & CSS practice</h1>
-  <div class="main">
+  <h1 class="title-text">
+    HTML & CSS practice
+  </h1>
+
+  <div class="header">
+
     <div>
-      Name:
-      <lable>
-        <input type="text" class="name"></input>
-      </lable>
+
+      <label for="name-text-box">
+        Name:
+      </label>
+
+      <input 
+      type="text" 
+      id="name-and-password-text-box" 
+      name="name-text-box" 
+      class="name-text-box">
     </div>
-    <div class="password-main">
-      Password:
-      <lable>
-        <input type="password" class="password"></input>
-      </lable>
-      <button class="submit">Submit</button>
+
+    <div class="password-group">
+
+      <label for="password-text-box">
+        Password:
+      </label>
+
+      <input 
+      type="password" 
+      id="name-and-password-text-box" 
+      name="password-text-box" 
+      class="password-text-box">
+
+      <input 
+      type="submit" 
+      value="Submit" 
+      class="submit-button">
     </div>
   </div>
 </body>
+
 </html>

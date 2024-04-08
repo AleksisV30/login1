@@ -1,27 +1,28 @@
 body {
 background-color: rgb(40, 38, 38);
-padding-bottom: 500px;
+padding-bottom: 200px;
 font-family: Arial;
 }
 
-.text1 {
+.title-text {
   text-align: center;
-  margin-top: 250px;
+  margin-top: 140px;
   color: white;
   margin-left: 65px;
   font-size: 25px;
 }
 
-.main {
+.header {
   color: white;
   background-color: rgb(48, 46, 46);
-  padding: 20px 300px 200px 20px;
-  margin: 0 500px;
+  padding: 20px 20px 200px 20px;
   border-radius: 8px;
   padding-bottom: 40px;
+  margin: auto;
+  width: 50%;
 }
 
-.name {
+#name-and-password-text-box {
   background-color: rgb(40, 38, 38);
   border-radius: 4px;
   color: white;
@@ -32,22 +33,11 @@ font-family: Arial;
   padding-bottom: 3px;
 }
 
-.password-main {
+.password-group {
   padding-top: 20px;
 }
 
-.password {
-  background-color: rgb(40, 38, 38);
-  border-radius: 4px;
-  color: white;
-  border-color: white;
-  border-width: 1px;
-  padding-right: 100px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-.submit {
+.submit-button {
   margin: 50px 0 0 110px;
   padding: 10px;
   border-radius: 6px;
