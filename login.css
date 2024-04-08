@@ -1,7 +1,7 @@
 body {
-background-color: rgb(40, 38, 38);
-padding-bottom: 200px;
-font-family: Arial;
+  background-color: rgb(40, 38, 38);
+  padding-bottom: 200px;
+  font-family: Arial;
 }
 
 .title-text {
@@ -22,7 +22,7 @@ font-family: Arial;
   width: 50%;
 }
 
-#name-and-password-text-box {
+.name-and-password-text-box {
   background-color: rgb(40, 38, 38);
   border-radius: 4px;
   color: white;
